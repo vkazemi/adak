@@ -1,4 +1,4 @@
-# nafispanel
+# adak
 This is an Open Source sea transport web application. you can customize it for any kind of freight transportation system. It has an admin user that defines in database and it has access all parts if application. You can see demo at below website
 
 http://adak.freehost.io
@@ -53,5 +53,5 @@ define('APPVERSION','');
 
 In path public/htaccess you sould change RewriteBase for your website     
 
-RewriteBase /nafispanel/public
+RewriteBase /adak/public
 
