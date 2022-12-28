@@ -13,6 +13,9 @@ https://www.studentstutorial.com/php-spreadsheet/phpspreadsheet-tutorial
 you can create invoice for each registered invoice and download odf file. I used mPDF. you can read about it in below link.
 https://mpdf.github.io/
 
+database file to import is located in  nafispanel/database/nafispanel.sql  create a database and import this database. By default there is a user call admin.
+The default password for admin user is 123456 and you can change it later. 
+
 I used a custom MVC PHP framework and used mysql for database. in app/config/config.php you should define database params, base url, assets url, and 
 website name.
 
