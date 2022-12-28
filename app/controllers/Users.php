@@ -49,7 +49,7 @@ class Users extends Controller {
             }
             else{
                 // User not found
-                $data['username'] = "No user found";
+                $data['username_err'] = "No user found";
             }
 
             //Make sure errors are empty
