@@ -1,0 +1,38 @@
+body{
+    background-color: #fff;
+}
+.bg-white{
+    background-color: white;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.main-items li img{
+    max-width:80px;
+    max-height:80px;
+}
+
+.red-color{
+    color: red;
+}
+.main-items li{
+    list-style: none;
+    display: inline-block;
+}
+.list-member{
+    width: 33%;
+    margin-bottom: 5%;;
+}
