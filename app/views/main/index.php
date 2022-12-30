@@ -1,4 +1,7 @@
-<?php require APPROOT.'/views/inc/header.php'; ?>
+<?php require APPROOT.'/views/inc/header.php'; 
+if(!isLoggedIn())
+    redirect('users/login');
+?>
 <div class="container">
     <ul class="main-items">
             <?php if(isset($_SESSION['user_access']) && $_SESSION['user_access']) :?>
