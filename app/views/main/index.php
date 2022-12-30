@@ -1,4 +1,5 @@
 <?php require APPROOT.'/views/inc/header.php'; 
+// Ckeck user is logged in else redirects to login page
 if(!isLoggedIn())
     redirect('users/login');
 ?>
